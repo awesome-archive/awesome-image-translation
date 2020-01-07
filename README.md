@@ -12,18 +12,38 @@ Feedback and contributions are welcome!
 - [Tutorials](#tutorials)
 - [Supervised](#supervised)
 - [Unsupervised](#unsupervised)
-    - [General](#unsupervised---general)
-    - [Attention or Examplar guided](#unsupervised---Attention-or-Examplar-guided)
-    - [Disentanglement](#unsupervised---Disentanglement)
-    - [Many-to-many](#unsupervised---many-to-many-attributes)
-- [Applications](#others)
-    - [Fashion Transfer (Face/Cloth Translation and Manipulation)](#others---Fashion-Transfer)
-    - [Few-Shot](#others---Few-Shot)
-    - [Image Synthesis](#others---Image-Synthesis)
-    - [Model Compression and Pruning](#others---Model-Compression-and-Pruning)
-    - [Adversarial Examples](#others---Adversarial-Examples)
-    - [Imbalanced Data](#others---Imbalanced-Data)
-    - [Retargeting and 3D Vision](#others---Retargeting-and-3D-Vision)
+  * [General](#general)
+  * [Attention-Examplar-Guided](#attention-examplar-guided)
+  * [Disentanglement](#disentanglement)
+  * [Many-to-many](#many-to-many)
+- [Applications](#applications)
+  * [Attribute-Editing](#attribute-editing)
+  * [Video](#video)
+  * [Data Augmentation](#data-augmentation)
+  * [Model-Compression-and-Pruning](#model-compression-and-pruning)
+  * [Adversarial-Examples](#adversarial-examples)
+  * [Imbalanced Data](#imbalanced-data)
+  * [Few-Shot](#few-shot)
+  * [Image-Synthesis](#image-synthesis)
+  * [Retargeting-and-3D-Vision](#retargeting-and-3d-vision)
+- [ICLR 2020](#iclr-2020)
+- [NeurIPS 2019](#neurips-2019)
+- [Conference](#conference)
+  * [ICLR 2020](#iclr-2020-1)
+  * [AAAI 2020](#aaai-2020)
+  * [ICCV 2019](#iccv-2019)
+  * [CVPR 2019](#cvpr-2019)
+  * [ICLR 2019](#iclr-2019)
+  * [ICML 2019](#icml-2019)
+  * [AAAI 2019](#aaai-2019)
+  * [Others 2019](#others-2019)
+  * [Before 2018](#before-2018)
+- [Datasets](#datasets)
+  * [pix2pix Datasets](#pix2pix-datasets)
+  * [CycleGAN Datasets](#cyclegan-datasets)
+  * [Attribute Editing](#attribute-editing)
+  * [Others](#others)
+- [License](#license)
 
 ## Tutorials
 
@@ -476,12 +496,14 @@ VPR 2019. [[PDF](https://arxiv.org/abs/1904.06807)] [[Github](https://github.com
 *Shih-En Wei, Jason Saragih, Tomas Simon, Adam W. Harley, Stephen Lombardi, Michal Perdoch, Alexander Hypes, Dawei Wang, Hernan Badino, Yaser Sheikh.*<br>
 SIGGRAPH 2019. [[PDF](https://research.fb.com/publications/vr-facial-animation-via-multiview-image-translation/)]
 
-## ICLR 2020 [accepted paper list](https://openreview.net/group?id=ICLR.cc/2020/Conference)
+## ICLR 2020 
+[[accepted paper list](https://openreview.net/group?id=ICLR.cc/2020/Conference)]
 
 **U-GAT-IT: Unsupervised Generative Attentional Networks with Adaptive Layer-Instance Normalization for Image-to-Image Translation.** [[PDF](https://openreview.net/forum?id=BJlZ5ySKPH)] <br>
 *Junho Kim, Minjae Kim, Hyeonwoo Kang, Kwang Hee Lee.*
 
-## NeurIPS 2019 [accepted paper list](https://nips.cc/Conferences/2019/AcceptedPapersInitial)
+## NeurIPS 2019 
+[[accepted paper list](https://nips.cc/Conferences/2019/AcceptedPapersInitial)]
 
 **Multi-mapping Image-to-Image Translation via Learning Disentanglement.** [[PDF](https://arxiv.org/abs/1909.07877)]<br>
 *Xiaoming Yu, Yuanqi Chen, Shan Liu, Thomas Li, Ge Li.*
@@ -496,17 +518,19 @@ Tristan Bepler, Ellen Zhong, Kotaro Kelley, Edward Brignole, Bonnie Berger.*
 *Xihui Liu, Guojun Yin, Jing Shao, Xiaogang Wang, Hongsheng Li.*
 
 
-## AAAI 2020
+## Conference
 
-## AAAI 2019
+### ICLR 2020 
+[[accepted paper list](https://openreview.net/group?id=ICLR.cc/2020/Conference)]
 
-**Exploiting Time-Series Image-to-Image Translation to Expand the Range of Wildlife Habitat Analysis.** [[PDF](https://www.aaai.org/ojs/index.php/AAAI/article/view/3862)]<br>
-*Ruobing Zheng, Ze Luo, Baoping Yan.*<br>
+**U-GAT-IT: Unsupervised Generative Attentional Networks with Adaptive Layer-Instance Normalization for Image-to-Image Translation.**<br>
+*Junho Kim, Minjae Kim, Hyeonwoo Kang, Kwanghee Lee.* <br>
+ICLR 2020. [[PDF](https://arxiv.org/abs/1907.10830)] [[Official Tensorflow](https://github.com/taki0112/UGATIT)] [[Pytorch](https://github.com/znxlwm/UGATIT-pytorch)]
 
-**Controllable Image-to-Video Translation: A Case Study on Facial Expression Generation.** [[PDF](https://arxiv.org/abs/1808.02992)]<br>
-*Lijie Fan, Wenbing Huang, Chuang Gan, Junzhou Huang, Boqing Gong.*<br>
+### AAAI 2020
 
-## ICCV 2019 [accepted paper list](http://openaccess.thecvf.com/ICCV2019.py)
+### ICCV 2019 
+[[accepted paper list](http://openaccess.thecvf.com/ICCV2019.py)]
 
 **Tex2Shape: Detailed Full Human Body Geometry From a Single Image.** [[PDF](http://openaccess.thecvf.com/content_ICCV_2019/html/Alldieck_Tex2Shape_Detailed_Full_Human_Body_Geometry_From_a_Single_Image_ICCV_2019_paper.html)]<br>
 *Thiemo Alldieck, Gerard Pons-Moll, Christian Theobalt, Marcus Magnor.*
@@ -556,7 +580,8 @@ Tristan Bepler, Ellen Zhong, Kotaro Kelley, Edward Brignole, Bonnie Berger.*
 **Liquid Warping GAN: A Unified Framework for Human Motion Imitation, Appearance Transfer and Novel View Synthesis.** [[PDF](http://openaccess.thecvf.com/content_ICCV_2019/html/Liu_Liquid_Warping_GAN_A_Unified_Framework_for_Human_Motion_Imitation_ICCV_2019_paper.html)]<br>
 *Wen Liu, Zhixin Piao, Jie Min, Wenhan Luo, Lin Ma, Shenghua Gao.*
 
-## CVPR 2019 [accepted paper list](http://openaccess.thecvf.com/CVPR2019.py)
+### CVPR 2019 
+[[accepted paper list](http://openaccess.thecvf.com/CVPR2019.py)]
 
 **Latent Filter Scaling for Multimodal Unsupervised Image-To-Image Translation.** [[PDF](http://openaccess.thecvf.com/content_CVPR_2019/html/Alharbi_Latent_Filter_Scaling_for_Multimodal_Unsupervised_Image-To-Image_Translation_CVPR_2019_paper.html)]<br>
 *Yazeed Alharbi, Neil Smith, Peter Wonka.*<br>
@@ -594,13 +619,8 @@ Tristan Bepler, Ellen Zhong, Kotaro Kelley, Edward Brignole, Bonnie Berger.*
 **TransGaGa：Geometry-Aware Unsupervised Image To Image Translation.** [[PDF](http://openaccess.thecvf.com/content_CVPR_2019/html/Wu_TransGaGa_Geometry-Aware_Unsupervised_Image-To-Image_Translation_CVPR_2019_paper.html)] [[arxiv](https://arxiv.org/abs/1904.09571)] [[project](https://wywu.github.io/projects/TGaGa/TGaGa.html)]<br>
 *Wayne Wu, Kaidi Cao, Cheng Li, Chen Qian, Chen Change Loy.*<br>
 
-## ICLR 2020 [accepted paper list](https://openreview.net/group?id=ICLR.cc/2020/Conference)
-
-**U-GAT-IT: Unsupervised Generative Attentional Networks with Adaptive Layer-Instance Normalization for Image-to-Image Translation.**<br>
-*Junho Kim, Minjae Kim, Hyeonwoo Kang, Kwanghee Lee.* <br>
-ICLR 2020. [[PDF](https://arxiv.org/abs/1907.10830)] [[Official Tensorflow](https://github.com/taki0112/UGATIT)] [[Pytorch](https://github.com/znxlwm/UGATIT-pytorch)]
-
-## ICLR 2019 [accepted paper list](https://openreview.net/group?id=ICLR.cc/2019/Conference)<br>
+### ICLR 2019 
+[[accepted paper list](https://openreview.net/group?id=ICLR.cc/2019/Conference)]
 
 **InstaGAN: Instance-aware Image-to-Image Translation.** [[PDF](https://openreview.net/forum?id=ryxwJhC9YX)] [[Github](https://github.com/sangwoomo/instagan)]<br>
 *Sangwoo Mo, Minsu Cho, Jinwoo Shin.* <br>
@@ -623,12 +643,21 @@ ICLR 2020. [[PDF](https://arxiv.org/abs/1907.10830)] [[Official Tensorflow](http
 **Unsupervised Video-to-Video Translation.** [[PDF](https://openreview.net/forum?id=SkgKzh0cY7)]<br>
 *Dina Bashkirova, Ben Usman, Kate Saenko.*<br>
 
-## ICML 2019 [accepted paper list](http://proceedings.mlr.press/v97/)
+### ICML 2019 
+[[accepted paper list](http://proceedings.mlr.press/v97/)]
 
 **RL-GAN: Transfer Learning for Related Reinforcement Learning Tasks via Image-to-Image Translation.** [[PDF](https://arxiv.org/abs/1806.07377)] [[Supplementary PDF](http://proceedings.mlr.press/v97/fujimoto19a/fujimoto19a-supp.pdf)] [[Github](https://github.com/ShaniGam/RL-GAN)]<br>
 *Shani Gamrian, Yoav Goldberg.* <br>
 
-## Others 2019
+### AAAI 2019
+
+**Exploiting Time-Series Image-to-Image Translation to Expand the Range of Wildlife Habitat Analysis.** [[PDF](https://www.aaai.org/ojs/index.php/AAAI/article/view/3862)]<br>
+*Ruobing Zheng, Ze Luo, Baoping Yan.*<br>
+
+**Controllable Image-to-Video Translation: A Case Study on Facial Expression Generation.** [[PDF](https://arxiv.org/abs/1808.02992)]<br>
+*Lijie Fan, Wenbing Huang, Chuang Gan, Junzhou Huang, Boqing Gong.*<br>
+
+### Others 2019
 
 **VR Facial Animation via Multiview Image Translation.** <br>
 *Shih-En Wei, Jason Saragih, Tomas Simon, Adam W. Harley, Stephen Lombardi, Michal Perdoch, Alexander Hypes, Dawei Wang, Hernan Badino, Yaser Sheikh.* <br>
@@ -709,7 +738,7 @@ arxiv 2019. [[PDF](https://arxiv.org/abs/1904.12428)] [[Github](https://github.c
 *Omry Sendik, Dani Lischinski, Daniel Cohen-Or.*<br>
 arxiv 2019. [[PDF](https://arxiv.org/abs/1901.04530)]
 
-## Before 2018
+### Before 2018
 - pix2pix: [[homepage](https://phillipi.github.io/pix2pix/)] [[Code](https://github.com/phillipi/pix2pix)]  [[Paper](https://arxiv.org/pdf/1611.07004.pdf)]
 - BicycleGAN: [[Code](https://github.com/junyanz/BicycleGAN)] [[Tensorflow](https://github.com/gitlimlab/BicycleGAN-Tensorflow)]
 - StarGAN: CVPR 2018. [[Code](https://github.com/yunjey/StarGAN)]  [[Paper](https://arxiv.org/abs/1711.09020)]
