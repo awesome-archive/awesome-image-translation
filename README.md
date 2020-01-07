@@ -26,24 +26,8 @@ Feedback and contributions are welcome!
   * [Few-Shot](#few-shot)
   * [Image-Synthesis](#image-synthesis)
   * [Retargeting-and-3D-Vision](#retargeting-and-3d-vision)
-- [ICLR 2020](#iclr-2020)
-- [NeurIPS 2019](#neurips-2019)
-- [Conference](#conference)
-  * [ICLR 2020](#iclr-2020-1)
-  * [AAAI 2020](#aaai-2020)
-  * [ICCV 2019](#iccv-2019)
-  * [CVPR 2019](#cvpr-2019)
-  * [ICLR 2019](#iclr-2019)
-  * [ICML 2019](#icml-2019)
-  * [AAAI 2019](#aaai-2019)
-  * [Others 2019](#others-2019)
-  * [Before 2018](#before-2018)
+- [Chronological Order](#conference)
 - [Datasets](#datasets)
-  * [pix2pix Datasets](#pix2pix-datasets)
-  * [CycleGAN Datasets](#cyclegan-datasets)
-  * [Attribute Editing](#attribute-editing)
-  * [Others](#others)
-- [License](#license)
 
 ## Tutorials
 
@@ -496,13 +480,18 @@ VPR 2019. [[PDF](https://arxiv.org/abs/1904.06807)] [[Github](https://github.com
 *Shih-En Wei, Jason Saragih, Tomas Simon, Adam W. Harley, Stephen Lombardi, Michal Perdoch, Alexander Hypes, Dawei Wang, Hernan Badino, Yaser Sheikh.*<br>
 SIGGRAPH 2019. [[PDF](https://research.fb.com/publications/vr-facial-animation-via-multiview-image-translation/)]
 
-## ICLR 2020 
+## Conference
+
+### ICLR 2020 
 [[accepted paper list](https://openreview.net/group?id=ICLR.cc/2020/Conference)]
 
-**U-GAT-IT: Unsupervised Generative Attentional Networks with Adaptive Layer-Instance Normalization for Image-to-Image Translation.** [[PDF](https://openreview.net/forum?id=BJlZ5ySKPH)] <br>
-*Junho Kim, Minjae Kim, Hyeonwoo Kang, Kwang Hee Lee.*
+**U-GAT-IT: Unsupervised Generative Attentional Networks with Adaptive Layer-Instance Normalization for Image-to-Image Translation.**<br>
+*Junho Kim, Minjae Kim, Hyeonwoo Kang, Kwanghee Lee.* <br>
+ICLR 2020. [[PDF](https://arxiv.org/abs/1907.10830)] [[Official Tensorflow](https://github.com/taki0112/UGATIT)] [[Pytorch](https://github.com/znxlwm/UGATIT-pytorch)]
 
-## NeurIPS 2019 
+### AAAI 2020
+
+### NeurIPS 2019 
 [[accepted paper list](https://nips.cc/Conferences/2019/AcceptedPapersInitial)]
 
 **Multi-mapping Image-to-Image Translation via Learning Disentanglement.** [[PDF](https://arxiv.org/abs/1909.07877)]<br>
@@ -517,17 +506,6 @@ Tristan Bepler, Ellen Zhong, Kotaro Kelley, Edward Brignole, Bonnie Berger.*
 **Learning to Predict Layout-to-image Conditional Convolutions for Semantic Image Synthesis.** [[PDF](https://arxiv.org/abs/1910.06809)]<br>
 *Xihui Liu, Guojun Yin, Jing Shao, Xiaogang Wang, Hongsheng Li.*
 
-
-## Conference
-
-### ICLR 2020 
-[[accepted paper list](https://openreview.net/group?id=ICLR.cc/2020/Conference)]
-
-**U-GAT-IT: Unsupervised Generative Attentional Networks with Adaptive Layer-Instance Normalization for Image-to-Image Translation.**<br>
-*Junho Kim, Minjae Kim, Hyeonwoo Kang, Kwanghee Lee.* <br>
-ICLR 2020. [[PDF](https://arxiv.org/abs/1907.10830)] [[Official Tensorflow](https://github.com/taki0112/UGATIT)] [[Pytorch](https://github.com/znxlwm/UGATIT-pytorch)]
-
-### AAAI 2020
 
 ### ICCV 2019 
 [[accepted paper list](http://openaccess.thecvf.com/ICCV2019.py)]
