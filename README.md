@@ -310,8 +310,8 @@ International Conference on Multimedia Modeling (MMM 2020). [[PDF](https://arxiv
 ### Attribute-Editing
 
 **BeautyGAN: Instance-level Facial Makeup Transfer with Deep Generative Adversarial Network.**<br>
-*Tingting Li*<br> 
-MM 2018. [[PDF](https://liusi-group.com/pdf/BeautyGAN-camera-ready.pdf)] 
+*Tingting Li, Ruihe Qian, Chao Dong,  Si Liu, Qiong Yan, Wenwu Zhu,  Liang Lin*<br> 
+ACM MM 2018. [[PDF](https://liusi-group.com/pdf/BeautyGAN-camera-ready.pdf)] [[Github](github.com/Honlan/BeautyGAN)] [[Project](http://liusi-group.com/projects/BeautyGAN)]
 
 **UFDN: A Unified Feature Disentangler for Multi-Domain Image Translation and Manipulation.**<br> 
 *Alexander H. Liu, Yen-Cheng Liu, Yu-Ying Yeh, Yu-Chiang Frank Wang.*<br> 
@@ -719,8 +719,12 @@ arxiv 2019. [[PDF](https://arxiv.org/abs/1901.04530)]
 ### Before 2018
 - pix2pix: [[homepage](https://phillipi.github.io/pix2pix/)] [[Code](https://github.com/phillipi/pix2pix)]  [[Paper](https://arxiv.org/pdf/1611.07004.pdf)]
 - BicycleGAN: [[Code](https://github.com/junyanz/BicycleGAN)] [[Tensorflow](https://github.com/gitlimlab/BicycleGAN-Tensorflow)]
+- CycleGAN: [[homepage](https://junyanz.github.io/CycleGAN/)] [[CycleGAN](https://github.com/junyanz/CycleGAN)] [[pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)] [[Full Paper](https://arxiv.org/pdf/1703.10593.pdf)]
+- DualGAN: [[Code](https://github.com/duxingren14/DualGAN)] [[Paper](https://arxiv.org/abs/1704.02510)]
+- DiscoGAN: [[Code](https://github.com/carpedm20/DiscoGAN-pytorch)] [[Paper](https://arxiv.org/abs/1703.05192)]
 - StarGAN: CVPR 2018. [[Code](https://github.com/yunjey/StarGAN)]  [[Paper](https://arxiv.org/abs/1711.09020)]
 - VAE-GAN: [[Code](http://github.com/andersbll/autoencoding_beyond_pixels)] [[Paper](https://arxiv.org/pdf/1611.07004.pdf)]
+- UNIT:[[Code](https://github.com/mingyuliutw/UNIT)]
 - cVAE-GAN: [[Paper](https://arxiv.org/pdf/1703.10155.pdf)]
 - DTN: [[Code](https://github.com/yunjey/domain-transfer-network)] [[Paper](https://arxiv.org/abs/1611.02200)]
 - FaderNets: [[Code](https://github.com/facebookresearch/FaderNetworks)] [[Paper](https://arxiv.org/abs/1706.00409)]
@@ -728,10 +732,7 @@ arxiv 2019. [[PDF](https://arxiv.org/abs/1901.04530)]
 - GeneGAN: [[Code](https://github.com/Prinsphield/GeneGAN)] [[Paper](https://arxiv.org/abs/1705.04932)]
 - Face-Age-cGAN: [[Paper](https://arxiv.org/abs/1702.01983)]
 - DAGAN:  Deep Attention GAN
-- UNIT:[[Code](https://github.com/mingyuliutw/UNIT)]
-- CycleGAN: [[homepage](https://junyanz.github.io/CycleGAN/)] [[CycleGAN](https://github.com/junyanz/CycleGAN)] [[pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)] [[Full Paper](https://arxiv.org/pdf/1703.10593.pdf)]
-- DualGAN: [[Code](https://github.com/duxingren14/DualGAN)] [[Paper](https://arxiv.org/abs/1704.02510)]
-- DiscoGAN: [[Code](https://github.com/carpedm20/DiscoGAN-pytorch)] [[Paper](https://arxiv.org/abs/1703.05192)]
+
 
 
 ## Datasets
@@ -763,21 +764,21 @@ python download-dataset.py datasetname
 ### Attribute Editing
 - `CelebA`. The CelebFaces Attributes (CelebA) dataset contains 202,599 face images of celebrities, each annotated with 40 binary attributes. size 178×218. hair color (black, blond, brown),gender (male/female), and age (young/old).
 - `CelebA-HQ`.
-- `CelebAMask-HQ`. It is a large-scale face image dataset that has 30,000 high-resolution face images selected from the CelebA dataset by following CelebA-HQ. Each image has segmentation
-mask of facial attributes corresponding to CelebA. The masks of CelebAMask-HQ were manually-annotated with the size of 512×512 and 19 classes including all facial components and acessories such as skin, nose, eyes, eyebrows, ears, mouth, lip, hair, hat, eyeglass, earring, necklace, neck, and cloth.
+- `CelebAMask-HQ`. It is a large-scale face image dataset that has 30,000 high-resolution face images selected from the CelebA dataset by following CelebA-HQ. Each image has segmentation mask of facial attributes corresponding to CelebA. The masks of CelebAMask-HQ were manually-annotated with the size of 512×512 and 19 classes including all facial components and acessories such as skin, nose, eyes, eyebrows, ears, mouth, lip, hair, hat, eyeglass, earring, necklace, neck, and cloth.
 - `RaFD`. The Radboud Faces Database (RaFD) consists of 4,824 images collected from 67 participants. Each participant makes eight facial expressions in three different gaze directions, which are captured from three different angles.
-- `CMU Multi-PIE Face Database`. [Multi-PIE](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2873597/)A large (305GB) database of images for training facial recognition software. It consists 13 poses within ±90 degrees of 337 subjects and can be used for face frontalization experiments.
+- `CMU Multi-PIE Face Database`. [[Multi-PIE](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2873597/)] A large (305GB) database of images for training facial recognition software. It consists 13 poses within ±90 degrees of 337 subjects and can be used for face frontalization experiments.
 - `AFHQ`.  Released in StarGAN v2. Animal FacesHQ (AFHQ) consists of 15,000 high-quality images at 512 × 512 resolution. We collected images with
 permissive licenses from the [Flickr](https://www.flickr.com/) and [Pixabay](https://pixabay.com/) websites. All images are vertically and horizontally aligned to have the eyes at the center. The low-quality images were discarded by human effort. See the [Project](https://github.com/clovaai/stargan-v2) or Paper for more details.
 
 ### Others
+-`Makeup Transfer`. [[Download](http://liusi-group.com/projects/BeautyGAN)]
 - `DeepFashion`. In-shop Clothes Retrieval Benchmark evaluates the performance of in-shop Clothes Retrieval. This is a large subset of DeepFashion, containing large pose and scale variations. It also has large diversities, large quantities, and rich annotations, including 7,982 number of clothing items, 52,712 number of in-shop clothes images, and ~200,000 cross-pose/scale pairs, Each image is annotated by bounding box, clothing type and pose type. [Download](http://mmlab.ie.cuhk.edu.hk/projects/DeepFashion/InShopRetrieval.html)
-- `AI-Generated Faces`: Free Resource of 100K Faces Without Copyright. [Download](http://t.cn/AiEky6r3)
+- `AI-Generated Faces`: Free Resource of 100K Faces Without Copyright. [[Download](http://t.cn/AiEky6r3)]
 - `All-Age-Faces (AAF) Database` - contains 13'322 face images (mostly Asian) distributed across all ages (from 2 to 80), including 7381 females and 5941 males. [GitHub](http://t.cn/AinOjWhK) [Paper](http://t.cn/AinOjWhY)
-- `Celeb-DF`. A New Dataset for DeepFake Forensics. [Download](http://t.cn/AimcYeUI)
-- `The Deepfake Detection Challenge (DFDC) Preview Dataset`. Facebook AI. [PDF](https://arxiv.org/abs/1910.08854), [Home](http://t.cn/AiEaiHKX).
+- `Celeb-DF`. A New Dataset for DeepFake Forensics. [[Download](http://t.cn/AimcYeUI)]
+- `The Deepfake Detection Challenge (DFDC) Preview Dataset`. Facebook AI. [[PDF](https://arxiv.org/abs/1910.08854)] [[Project](http://t.cn/AiEaiHKX)].
 - `Faceforensics++`. Learning to detect manipulated facial images, 2019.
-- `AI Generated Diverse Photos`. [Project](https://www.generative.photos/?ref=producthunt)
+- `AI Generated Diverse Photos`. [[Project](https://www.generative.photos/?ref=producthunt)]
 - `t-less`. An RGB-D- Dataset for6 D Pose Estimation of Texture-less Objects.
 
 
