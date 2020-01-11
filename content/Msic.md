@@ -2,6 +2,12 @@
 # Msic
 
 ## Free-Hand Sketch
+
+**Deep Plastic Surgery: Robust and Controllable Image Editing with Human-Drawn Sketches.**<br>
+*Shuai Yang, Zhangyang Wang, Jiaying Liu, Zongming Guo.*<br>
+arxiv, 9 Jan 2020.
+[[PDF](https://arxiv.org/abs/2001.02890)]
+
 **Interactive Sketch & Fill: Multiclass Sketch-to-Image Translation.**<br>
 *[Arnab Ghosh](https://arnabgho.github.io/), [Richard Zhang](https://richzhang.github.io/), [Puneet K. Dokania](https://puneetkdokania.github.io/), [Oliver Wang](http://www.oliverwang.info/), [Alexei A. Efros](https://people.eecs.berkeley.edu/~efros/), [Philip H.S. Torr](http://www.robots.ox.ac.uk/~tvg/index.php), [Eli Shechtman](https://research.adobe.com/person/eli-shechtman/).*<br>
 ICCV 2019. [[PDF](https://arxiv.org/abs/1909.11081v2)] [[Github](https://arnabgho.github.io/iSketchNFill/)]
@@ -131,6 +137,10 @@ CVPR 2018. [[PDF](https://www.cmlab.csie.ntu.edu.tw/project/Deep-Photo-Enhancer/
 ## Vision, Language and Action
 
 [Awesome Vision-and-Language Navigation](https://github.com/daqingliu/awesome-vln)
+
+ViLBERT: Pretraining Task-Agnostic Visiolinguistic Representations for Vision-and-Language Tasks.
+Jiasen Lu, Dhruv Batra, Devi Parikh, Stefan Lee.
+NeurIPS 2019. [[PDF](https://www.aminer.cn/pub/5db9297647c8f766461f745b/)] [[Github](https://github.com/jiasenlu/vilbert_beta)]
 
 **ScanRefer: 3D Object Localization in RGB-D Scans using Natural Language.** <br>
 *Dave Zhenyu Chen, Angel X. Chang, Matthias Nießner.*<br>
