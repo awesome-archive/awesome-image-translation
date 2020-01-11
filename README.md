@@ -635,6 +635,9 @@ Tristan Bepler, Ellen Zhong, Kotaro Kelley, Edward Brignole, Bonnie Berger.*
 **Controllable Image-to-Video Translation: A Case Study on Facial Expression Generation.** [[PDF](https://arxiv.org/abs/1808.02992)]<br>
 *Lijie Fan, Wenbing Huang, Chuang Gan, Junzhou Huang, Boqing Gong.*<br>
 
+**OT-CycleGAN: Guiding the One-to-one Mapping in CycleGAN via Optimal Transport.** [[PDF](https://arxiv.org/abs/1811.06284)] <br>
+*Guansong Lu, Zhiming Zhou, Yuxuan Song, Kan Ren, Yong Yu.*<br> 
+
 ### Others 2019
 
 **VR Facial Animation via Multiview Image Translation.** <br>
@@ -645,13 +648,13 @@ SIGGRAPH 2019. [[PDF](https://research.fb.com/publications/vr-facial-animation-v
 *Hao Tang, Dan Xu, Gaowen Liu, Wei Wang, Nicu Sebe, Yan Yan.* <br>
 MM 2019. [[PDF](https://arxiv.org/abs/1908.00999)] 
 
+**Towards Automatic Face-to-Face Translation.**<br>
+*Prajwal Renukanand, Rudrabha Mukhopadhyay, Jerin Philip, Abhishek Jha, Vinay Namboodiri and C.V. Jawahar.*<br>
+ACM MM 2019. [[PDF](https://dl.acm.org/doi/10.1145/3343031.3351066)] [[Github](https://github.com/Rudrabha/LipGAN)] [[Project](http://cvit.iiit.ac.in/research/projects/cvit-projects/facetoface-translation)]
+
 **CartoonRenderer: An Instance-based Multi-Style Cartoon Image Translator.** <br>
 *Yugang Chen, Muchun Chen, Chaoyue Song, Bingbing Ni.* <br>
 International Conference on Multimedia Modeling (MMM2020). [[PDF](https://arxiv.org/abs/1911.06102)] 
-
-**OT-CycleGAN: Guiding the One-to-one Mapping in CycleGAN via Optimal Transport.** <br>
-*Guansong Lu, Zhiming Zhou, Yuxuan Song, Kan Ren, Yong Yu.*<br> 
-AAAI 2019. [[PDF](https://arxiv.org/abs/1811.06284)] 
 
 **AttentionGAN: Attention-Guided Generative Adversarial Networks for Unsupervised Image-to-Image Translation.**<br>
 *Hao Tang, Dan Xu, Nicu Sebe, Yan Yan.* <br>
