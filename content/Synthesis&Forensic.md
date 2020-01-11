@@ -1,15 +1,28 @@
 ## Diving Deep into Image Synthesis
+
 **StyleGAN2: Analyzing and Improving the Image Quality of StyleGAN.**<br>
-*Tero Karras, Samuli Laine, Miika Aittala, Janne Hellsten, Jaakko Lehtinen, Timo Aila.*<br>
+*[Tero Karras](https://research.nvidia.com/person/tero-karras), [Samuli Laine](https://research.nvidia.com/person/samuli-laine), [Miika Aittala](https://research.nvidia.com/person/miika-aittala), Janne Hellsten, Jaakko Lehtinen, [Timo Aila](https://research.nvidia.com/person/timo-aila).*<br>
 arxiv, 3 Dec 2019.
 [[PDF](https://arxiv.org/abs/1912.04958)] 
 [[Offical TF](https://github.com/NVlabs/stylegan2)]
 [[PyTorch](https://github.com/rosinality/stylegan2-pytorch)]
 [[Unoffical Tensorflow 2.0](https://github.com/manicman1999/StyleGAN2-Tensorflow-2.0)]
 
+**A Style-Based Generator Architecture for Generative Adversarial Networks.**<br>
+*Tero Karras, Samuli Laine, Timo Aila.*<br>
+CVPR 2019. 
+[[Paper](https://arxiv.org/abs/1812.04948)]
+[[Video](https://youtu.be/kSLJriaOumA)]
+[[Code](https://github.com/NVlabs/stylegan)]
+[[FFHQ](https://github.com/NVlabs/ffhq-dataset)]
+
 **Image2StyleGAN: How to Embed Images Into the StyleGAN Latent Space?**<br>
 *Rameen Abdal, Yipeng Qin, Peter Wonka.*<br>
 ICCV 2019. [[PDF](https://arxiv.org/abs/1904.03189)]
+
+**Style Generator Inversion for Image Enhancement and Animation.**<br>
+*[Aviv Gabbay](https://www.cse.huji.ac.il/~avivga/), [Yedid Hoshen](https://www.cse.huji.ac.il/~ydidh/).*<br>
+arxiv, 5 Jun 2019. [[PDF](https://arxiv.org/abs/1906.11880)] [[Project](http://www.vision.huji.ac.il/style-image-prior)] [[Github](https://github.com/avivga/style-image-prior)]
 
 **SEAN: Image Synthesis with Semantic Region-Adaptive Normalization.**<br>
 *eihao Zhu, Rameen Abdal, Yipeng Qin, Peter Wonka.*<br>
@@ -21,17 +34,28 @@ ICCV 2019 (Best Paper).
 [[PDF](https://arxiv.org/abs/1905.01164)] [[UnOfficial](github.com/FriedRonaldo/SinGAN)] [[Official](github.com/tamarott/SinGAN)]
 
 **InGAN: Capturing and Retargeting the DNA of a Natural Image.** <br>
-ICCV 2019. [[PDF](http://www.wisdom.weizmann.ac.il/~vision/ingan/resources/ingan.pdf)] [[Homepage](http://www.wisdom.weizmann.ac.il/~vision/ingan/)] [[Github](https://github.com/assafshocher/InGAN)]
+ICCV 2019. [[PDF](http://www.wisdom.weizmann.ac.il/~vision/ingan/resources/ingan.pdf)] [[Project](http://www.wisdom.weizmann.ac.il/~vision/ingan/)] [[Github](https://github.com/assafshocher/InGAN)] 
 
-**Face X-ray for More General Face Forgery Detection。**<br>
-*Lingzhi Li, Jianmin Bao, Ting Zhang, Hao Yang, Dong Chen, Fang Wen, Baining Guo。*<br>
+## DeepFake and Forensic
+
+[[awesome-deepfakes-materials](https://github.com/datamllab/awesome-deepfakes-materials)]
+
+**DeeperForensics-1.0: A Large-Scale Dataset for Real-World Face Forgery Detection.**<br>
+*[Liming Jiang](https://liming-jiang.com/), [Wayne Wu](https://wywu.github.io/), [Ren Li](https://liren2515.github.io/page/), [Chen Qian](https://scholar.google.com/citations?user=AerkT0YAAAAJ&hl=en), [Chen Change Loy](http://personal.ie.cuhk.edu.hk/~ccloy/).*<br>
+arxiv, 9 Jan 2020.
+[[PDF](https://arxiv.org/abs/2001.03024)] 
+[[Project](https://liming-jiang.com/projects/DrF1/DrF1.html)]
+[[DeeperForensics-1.0 Dataset](https://github.com/EndlessSora/DeeperForensics-1.0)]
+[[PDF](https://github.com/EndlessSora/DeeperForensics-1.0)]
+
+**Face X-ray for More General Face Forgery Detection.**<br>
+*Lingzhi Li, Jianmin Bao, Ting Zhang, Hao Yang, Dong Chen, Fang Wen, Baining Guo.*<br>
 arrive, 31 Dec 2019. [[PDF](https://arxiv.org/abs/1912.13458)]
 
 **FaceShifter: Towards High Fidelity And Occlusion Aware Face Swapping.**<br>
 *Lingzhi Li, Jianmin Bao, Hao Yang, Dong Chen, Fang Wen.*<br>
 arxiv, 1 Dec 2019. [[PDF](https://arxiv.org/abs/1912.13457)]
 
-## Forensic
 **DeepFakes and Beyond: A Survey of Face Manipulation and Fake Detection.**<br>
 *Ruben Tolosana, Ruben Vera-Rodriguez, Julian Fierrez, Aythami Morales, Javier Ortega-Garcia.*<br>
 arxiv, 1 Jan 2020. [[PDF](https://arxiv.org/abs/2001.00179)]
