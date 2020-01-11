@@ -31,6 +31,10 @@ CVPR 2019. [[PDF](http://openaccess.thecvf.com/content_CVPR_2019/papers/Natsume_
 *Bharat Lal Bhatnagar, Garvita Tiwari, Christian Theobalt, Gerard Pons-Moll.* <br>
 ICCV 2019. [[Github](https://github.com/bharat-b7/MultiGarmentNetwork)] [[PDF](https://virtualhumans.mpi-inf.mpg.de/papers/bhatnagar2019mgn/bhatnagar2019mgn.pdf)] 
 
+3DPeople: Modeling the Geometry of Dressed Humans.
+Albert Pumarola, Jordi Sanchez, Gary P. T. Choi, Alberto Sanfeliu, Francesc Moreno-Noguer.
+ICCV 2019. [[PDF](https://arxiv.org/abs/1904.04571)] [[3DPeople-Dataset](https://github.com/albertpumarola/3DPeople-Dataset)]
+
 **Tex2Shape: Detailed Full Human Body Geometry From a Single Image.** <br>
 *Thiemo Alldieck, Gerard Pons-Moll, Christian Theobalt, Marcus Magnor.* <br>
 CVPR 2019. [[PDF](https://arxiv.org/abs/1904.08645)] [[Github](https://github.com/thmoa/tex2shape)]
@@ -64,9 +68,9 @@ Oppo shared on ISMAR 2019.
 
 ### Human Dynamics 
 
-**NASA: Neural Articulated Shape Approximation.**<br>
-*Timothy Jeruzalski, Boyang Deng, Mohammad Norouzi, JP Lewis, Geoffrey Hinton, Andrea Tagliasacchi（Google Research).*<br>
-arxiv, 6 Dec 2019. [[PDF](https://static.aminer.cn/misc/pdf/1912.03207.pdf)]
+**Do As I Do: Transferring Human Motion and Appearance between Monocular Videos with Spatial and Temporal Constraints.**<br>
+*Thiago L. Gomes, Renato Martins, João Ferreira, Erickson R. Nascimento.*<br>
+WACV 2020. [[PDF](https://arxiv.org/abs/2001.02606)]
 
 **NASA: Neural Articulated Shape Approximation.**<br>
 *Timothy Jeruzalski, Boyang Deng, Mohammad Norouzi, JP Lewis, Geoffrey Hinton, Andrea Tagliasacchi.*<br>
@@ -97,6 +101,16 @@ SIGGRAPH 2019. [[PDF](https://gvv.mpi-inf.mpg.de/projects/LiveCap/)] [[Project](
 TPAMI 2019 (ICCV 2017). [[PDF](https://arxiv.org/abs/1911.09092)] 
 
 ### Human Poses and Shapes
+
+**Learning 3D Human Shape and Pose from Dense Body Parts.**<br>
+*Hongwen Zhang, Jie Cao, Guo Lu, Wanli Ouyang, Zhenan Sun.*<br>
+arxiv, 2019. 
+[[PDF](https://hongwenzhang.github.io/dense2mesh/pdf/learning3Dhuman.pdf)]
+[[Project](https://hongwenzhang.github.io/dense2mesh)]
+
+**Chained Representation Cycling: Learning to Estimate 3D Human Pose and Shape by Cycling Between Representations.**<br>
+*Nadine Rueegg, Christoph Lassner, Michael J. Black, Konrad Schindler.*<br>
+AAAI 2020. [[PDF](https://arxiv.org/abs/2001.01613)] [[Project](https://ps.is.tuebingen.mpg.de/publications/ruegg-aaai-2020)]
 
 **Human Mesh Recovery From Monocular Images via a Skeleton-Disentangled Representation.**<br>
 *Yu Sun, Yun Ye, Wu Liu, Wenpeng Gao, Yili Fu, Tao Mei.*<br>
@@ -370,6 +384,13 @@ ICCV 2019. [[PDF](http://openaccess.thecvf.com/content_ICCV_2019/papers/Gordon_D
 **SynDeMo: Synergistic Deep Feature Alignment for Joint Learning of Depth and Ego-Motion.**<br>
 *Behzad Bozorgtabar, Mohammad Saeed Rad, Dwarikanath Mahapatra, Jean-Philippe Thiran.*<br> 
 ICCV 2019. [[PDF](http://openaccess.thecvf.com/content_ICCV_2019/papers/Bozorgtabar_SynDeMo_Synergistic_Deep_Feature_Alignment_for_Joint_Learning_of_Depth_ICCV_2019_paper.pdf)]
+
+**Insta-DM: Instance-wise Depth and Motion Learning from Monocular Videos.**<br>
+*Seokju Lee, Sunghoon Im, Stephen Lin, In So Kweon.*<br>
+arxiv, 19 Dec 2019.
+[[PDF](https://arxiv.org/abs/1912.09351)] 
+[[Project](http://sites.google.com/site/seokjucv/home/instadm)] 
+[[Github](https://github.com/SeokjuLee/Insta-DM)]
 
 **Self-Supervised Learning With Geometric Constraints in Monocular Video: Connecting Flow, Depth, and Camera.*<br>
 *Yuhua Chen, Cordelia Schmid, Cristian Sminchisescu.*<br> 
