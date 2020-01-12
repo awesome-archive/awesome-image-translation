@@ -8,6 +8,11 @@
 arxiv, 9 Jan 2020.
 [[PDF](https://arxiv.org/abs/2001.02890)]
 
+**Deep Learning for Free-Hand Sketch: A Survey.**<br>
+*Peng Xu.*<br>
+arxiv, 8 Jan 2020. [[PDF](https://arxiv.org/abs/2001.02600)]
+
+
 **Interactive Sketch & Fill: Multiclass Sketch-to-Image Translation.**<br>
 *[Arnab Ghosh](https://arnabgho.github.io/), [Richard Zhang](https://richzhang.github.io/), [Puneet K. Dokania](https://puneetkdokania.github.io/), [Oliver Wang](http://www.oliverwang.info/), [Alexei A. Efros](https://people.eecs.berkeley.edu/~efros/), [Philip H.S. Torr](http://www.robots.ox.ac.uk/~tvg/index.php), [Eli Shechtman](https://research.adobe.com/person/eli-shechtman/).*<br>
 ICCV 2019. [[PDF](https://arxiv.org/abs/1909.11081v2)] [[Github](https://arnabgho.github.io/iSketchNFill/)]
