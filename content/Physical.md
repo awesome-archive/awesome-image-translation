@@ -102,6 +102,10 @@ TPAMI 2019 (ICCV 2017). [[PDF](https://arxiv.org/abs/1911.09092)]
 
 ### Human Poses and Shapes
 
+**A Skeleton-bridged Deep Learning Approach for Generating Meshes of Complex Topologies from Single RGB Images.**<br>
+*Jiapeng Tang, Xiaoguang Han, Junyi Pan, Kui Jia, Xin Tong.*<br>
+CVPR 2019. [[PDF](https://arxiv.org/abs/1903.04704)]
+
 **Learning 3D Human Shape and Pose from Dense Body Parts.**<br>
 *Hongwen Zhang, Jie Cao, Guo Lu, Wanli Ouyang, Zhenan Sun.*<br>
 arxiv, 2019. 
