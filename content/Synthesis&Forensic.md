@@ -20,6 +20,11 @@ CVPR 2019.
 *Rameen Abdal, Yipeng Qin, Peter Wonka.*<br>
 ICCV 2019. [[PDF](https://arxiv.org/abs/1904.03189)]
 
+
+**Improving sample diversity of a pre-trained, class-conditional GAN by changing its class embeddings.**<br>
+*Qi Li, Long Mai, Anh Nguyen.*<br>
+arxiv, 10 Oct 2019. [[PDF](https://arxiv.org/abs/1910.04760)]
+
 **Style Generator Inversion for Image Enhancement and Animation.**<br>
 *[Aviv Gabbay](https://www.cse.huji.ac.il/~avivga/), [Yedid Hoshen](https://www.cse.huji.ac.il/~ydidh/).*<br>
 arxiv, 5 Jun 2019. [[PDF](https://arxiv.org/abs/1906.11880)] [[Project](http://www.vision.huji.ac.il/style-image-prior)] [[Github](https://github.com/avivga/style-image-prior)]
@@ -151,7 +156,12 @@ ICCV 2019. [[PDF](http://openaccess.thecvf.com/content_ICCV_2019/papers/Xu_View_
 *Zhang Chen, Anpei Chen, Guli Zhang, Chengyuan Wang, Yu Ji, Kiriakos N. Kutulakos, Jingyi Yu.* <br>
 arxiv, 26 Nov 2019.
 
-## Motion Transfer & Retargeting & Dubbing & Animation
+## Motion Transfer & Retargeting & Reenactment & Dubbing & Animation
+
+**Neural Human Video Rendering: Joint Learning of Dynamic Textures and Rendering-to-Video Translation.** <br>
+*Lingjie Liu, Weipeng Xu, Marc Habermann, Michael Zollhoefer, Florian Bernard, Hyeongwoo Kim, Wenping Wang, Christian Theobalt.* <br>
+arxiv, 14 Jan 2020. [[PDF](https://arxiv.org/abs/2001.04947)]
+
 **FLNet: Landmark Driven Fetching and Learning Network for Faithful Talking Facial Animation Synthesis.** <br>
 *Kuangxiao Gu, Yuqian Zhou, Thomas Huang.* <br>
 AAAI 2020. [[PDF](https://arxiv.org/abs/1911.09224)] [[GitHub](https://github.com/kgu3/FLNet_AAAI2020)]

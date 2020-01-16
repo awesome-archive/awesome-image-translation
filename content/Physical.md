@@ -31,8 +31,8 @@ CVPR 2019. [[PDF](http://openaccess.thecvf.com/content_CVPR_2019/papers/Natsume_
 *Bharat Lal Bhatnagar, Garvita Tiwari, Christian Theobalt, Gerard Pons-Moll.* <br>
 ICCV 2019. [[Github](https://github.com/bharat-b7/MultiGarmentNetwork)] [[PDF](https://virtualhumans.mpi-inf.mpg.de/papers/bhatnagar2019mgn/bhatnagar2019mgn.pdf)] 
 
-3DPeople: Modeling the Geometry of Dressed Humans.
-Albert Pumarola, Jordi Sanchez, Gary P. T. Choi, Alberto Sanfeliu, Francesc Moreno-Noguer.
+**3DPeople: Modeling the Geometry of Dressed Humans.** <br>
+*Albert Pumarola, Jordi Sanchez, Gary P. T. Choi, Alberto Sanfeliu, Francesc Moreno-Noguer.*<br>
 ICCV 2019. [[PDF](https://arxiv.org/abs/1904.04571)] [[3DPeople-Dataset](https://github.com/albertpumarola/3DPeople-Dataset)]
 
 **Tex2Shape: Detailed Full Human Body Geometry From a Single Image.** <br>
@@ -64,7 +64,7 @@ Oppo shared on ISMAR 2019.
 
 ## Human 3D Reconstruction
 
-[Awesome 3D Human Resources List](https://github.com/lijiaman/awesome-3d-human) 
+[[Awesome 3D Human Resources List](https://github.com/lijiaman/awesome-3d-human)]
 
 ### Human Dynamics 
 
@@ -251,7 +251,7 @@ IJCV 2018. [[BIP Dataset](https://gravis.dmi.unibas.ch/PMM/data/bip/)] [[PDF](ht
 
 ## Gaze Estimation/Tracking/Redirection/Correction, Blink Detection
 
-[Awesome Work on Gaze Estimation. [[PDF](https://github.com/cvlab-uob/Awesome-Gaze-Estimation)
+[[Awesome Work on Gaze Estimation.](https://github.com/cvlab-uob/Awesome-Gaze-Estimation)]
 
 ### ICCV 2019 WorkShop: [Gaze Estimation and Prediction in the Wild](http://openaccess.thecvf.com/ICCV2019_workshops/ICCV2019_GAZE.py) [[Homepage](http://gazeworkshop.github.io/)]
 
@@ -361,6 +361,15 @@ CVPR 2015. [[PDF](https://www.cv-foundation.org/openaccess/content_cvpr_2015/pap
 
 ## Depth From Video (Depth, Normal and Camera Motion Estimation)
 
+**DIODE: A Dense Indoor and Outdoor DEpth Dataset.**<br>
+*Igor Vasiljevic, Nick Kolkin, Shanyi Zhang, Ruotian Luo, Haochen Wang, Falcon Z. Dai, Andrea F. Daniele, Mohammadreza Mostajabi, Steven Basart, Matthew R. Walter, Gregory Shakhnarovich.*<br>
+CVPR 2020. 
+[[PDF](arxiv.org/pdf/1908.00463.pdf)]
+[[Project](diode-dataset.org)] 
+[[Github](github.com/diode-dataset/)]
+[[Frontiers of Monocular 3D Perception | Workshop CVPR 2020 ](https://sites.google.com/view/mono3d-workshop/home)]
+
+
 **Joint Graph-based Depth Refinement and Normal Estimation.**<br>
 *Mattia Rossi, Mireille El Gheche, Andreas Kuhn, Pascal Frossard.*<br>
 arxiv, 3 Dec 2019. [[PDF](https://arxiv.org/abs/1912.01306)]
@@ -396,7 +405,7 @@ arxiv, 19 Dec 2019.
 [[Project](http://sites.google.com/site/seokjucv/home/instadm)] 
 [[Github](https://github.com/SeokjuLee/Insta-DM)]
 
-**Self-Supervised Learning With Geometric Constraints in Monocular Video: Connecting Flow, Depth, and Camera.*<br>
+**Self-Supervised Learning With Geometric Constraints in Monocular Video: Connecting Flow, Depth, and Camera.**<br>
 *Yuhua Chen, Cordelia Schmid, Cristian Sminchisescu.*<br> 
 ICCV 2019. [[PDF](http://openaccess.thecvf.com/content_ICCV_2019/papers/Chen_Self-Supervised_Learning_With_Geometric_Constraints_in_Monocular_Video_Connecting_Flow_ICCV_2019_paper.pdf)]
 
@@ -582,7 +591,7 @@ ACM Transaction on Graphics (SIGGRAPH Asia 2018). [[PDF](http://www.hao-li.com/p
 
 ## Human Pose Estimation
 
-[Awesome work on hand pose estimation/tracking. [[PDF](https://github.com/xinghaochen/awesome-hand-pose-estimation)]
+[[Awesome work on hand pose estimation/tracking.](https://github.com/xinghaochen/awesome-hand-pose-estimation)]
 
 **Camera-to-Robot Pose Estimation from a Single Image.** <br>
 *Timothy E. Lee, Jonathan Tremblay, Thang To, Jia Cheng, Terry Mosier, Oliver Kroemer, Dieter Fox, Stan Birchfield.*<br>
